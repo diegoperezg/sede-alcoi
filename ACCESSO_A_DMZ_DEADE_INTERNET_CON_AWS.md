@@ -1,7 +1,5 @@
 # Configuració de Reverse Proxy amb AWS EC2 — Seu Alcoi
 
-**Autors:** Gemini AI (Adaptació de contingut) · [El teu nom/Grup]
-
 ---
 
 ## Índex de continguts
