@@ -37,9 +37,9 @@ Breve descripcion del objetivo del proyecto y sus requisitos.
 | 1 | Mikrotik | 
 | 2 | Switch Cisco | 
 | 3 | Switch TP-Link 16 puertos | 
-| 4 | Vacio | 
-| 5 | Vacio | 
-| 6 | Vacio | 
+| 4 | SRV-F01 | 
+| 5 | SRV-F02 | 
+| 6 | SRV-F03 | 
 | 7 | Vacio | 
 | 8 | Vacio |
 
