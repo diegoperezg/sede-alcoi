@@ -1,0 +1,134 @@
+# Pràctica f2.xarxa.2: Elecció i caracterització dels dispositius d’interconnexió de xarxa
+
+## 1. Inventari i elecció dels dispositius
+
+### Dispositius disponibles
+- Cisco Catalyst 4948  
+- TP-Link TL-SG2216  
+- TP-Link TL-SG2008  
+- MikroTik hAP Series  
+- D-Link DES-3526  
+
+### Elecció i justificació
+**Core de xarxa:** Cisco Catalyst 4948  
+S'utilitza com a switch principal per la seva alta capacitat de processament, suport de capa 3 i gran capacitat de forwarding.
+
+**Distribució:** D-Link DES-3526  
+S'encarrega de la connexió del SAN.
+
+**Accés:** TP-Link TL-SG2216 i TL-SG2008  
+S'utilitzen per connectar els dispositius finals, oferint connectivitat gigabit amb gestió bàsica.
+
+**Router:** MikroTik hAP  
+S'encarrega de la connexió a Internet, NAT, DHCP i funcions de firewall.
+
+---
+
+## 2. Esquema de connexió
+
+La topologia de la xarxa és jeràrquica en estrella:
+
+
+---
+
+## 3. Característiques dels dispositius
+
+### Cisco Catalyst 4948
+- Consum: 100-150W  
+- Format: Rack 19”  
+- Ports: 48x RJ45 Gigabit + uplinks SFP+/10Gb  
+- Velocitat: 1Gbps (accés), 10Gbps (uplinks)  
+- PoE: No (model base)  
+- Auto-MDIX: Sí  
+- Duplex: Half i Full Duplex  
+- Interfícies: RJ45 i SFP+  
+- Port Mirroring: Sí  
+- Link Aggregation: Sí (LACP)  
+- Spanning Tree: STP, RSTP  
+- Processament: Store-and-forward  
+- Taula CAM: Alta capacitat (entorn empresarial)  
+- Capa 3: Sí (routing inter-VLAN)  
+
+### D-Link DES-3526
+- Consum: ~40W  
+- Format: Rack 19”  
+- Ports: 24x Fast Ethernet + uplinks Gigabit  
+- Velocitat: 100Mbps (accés), 1Gbps uplinks  
+- PoE: No  
+- Auto-MDIX: Sí  
+- Duplex: Half i Full Duplex  
+- Interfícies: RJ45 i SFP  
+- Port Mirroring: Sí  
+- Link Aggregation: Sí  
+- Spanning Tree: STP, RSTP  
+- Processament: Store-and-forward  
+- Taula CAM: Mitjana  
+- Capa 3: No (principalment capa 2)  
+
+### TP-Link TL-SG2216
+- Consum: 10-20W  
+- Format: Sobremesa / Rack  
+- Ports: 16x Gigabit RJ45 + SFP  
+- Velocitat: 1Gbps  
+- PoE: No (en aquest model)  
+- Auto-MDIX: Sí  
+- Duplex: Full Duplex  
+- Interfícies: RJ45 i SFP  
+- Port Mirroring: Sí  
+- Link Aggregation: Sí (LACP)  
+- Spanning Tree: STP, RSTP  
+- Processament: Store-and-forward  
+- Taula CAM: Limitada  
+- Capa 3: No (Smart Switch)  
+
+### TP-Link TL-SG2008
+- Consum: ~10W  
+- Format: Sobremesa  
+- Ports: 8x Gigabit RJ45  
+- Velocitat: 1Gbps  
+- PoE: No  
+- Auto-MDIX: Sí  
+- Duplex: Full Duplex  
+- Interfícies: RJ45  
+- Port Mirroring: Sí  
+- Link Aggregation: Sí  
+- Spanning Tree: STP  
+- Processament: Store-and-forward  
+- Taula CAM: Limitada  
+- Capa 3: No  
+
+### MikroTik hAP Series
+- Consum: 5-10W  
+- Format: Sobremesa  
+- Ports: 4-5 RJ45 segons model  
+- Velocitat: 100Mbps / 1Gbps segons model  
+- PoE: Alguns models sí (PoE in/out)  
+- Auto-MDIX: Sí  
+- Duplex: Full Duplex  
+- Interfícies: RJ45 + WiFi  
+- Port Mirroring: Limitat  
+- Link Aggregation: No habitual  
+- Spanning Tree: Sí  
+- Processament: Store-and-forward  
+- Taula CAM: Limitada  
+- Capa 3: Sí (routing complet, NAT, firewall)  
+
+---
+
+## 4. Punts d'accés
+
+El MikroTik hAP pot funcionar com a punt d'accés.
+
+### Cobertura
+Entre 20 i 50 metres en interiors.
+
+### Ubicació
+Ubicat en zona central per maximitzar cobertura.
+
+---
+
+## 5. Conclusions
+
+La xarxa dissenyada segueix una estructura jeràrquica eficient, amb un core potent i una capa d'accés optimitzada en cost.
+
+Com a millora futura, es recomana la substitució del switch D-Link per un dispositiu gigabit per evitar colls d'ampolla.
