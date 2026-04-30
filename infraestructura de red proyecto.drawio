@@ -1,0 +1,275 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="Vuz9Qiw3l1iwgMkEe_Kz">
+    <mxGraphModel dx="2335" dy="1435" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="J8YXoTsCnhbxt71xB_hn-92" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=20;fontStyle=1;fontColor=#1a237e;" value="Infraestructura Física de Xarxa — Projecte Integrador ASIX" vertex="1">
+          <mxGeometry height="40" width="1400" x="200" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="J8YXoTsCnhbxt71xB_hn-93" parent="1" style="swimlane;startSize=25;fillColor=#f5f5f5;strokeColor=#666;fontStyle=1;fontSize=11;fontColor=#333;" value="LLEGENDA" vertex="1">
+          <mxGeometry height="760" width="580" x="1680" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J8YXoTsCnhbxt71xB_hn-96" edge="1" parent="J8YXoTsCnhbxt71xB_hn-93" style="endArrow=none;html=1;strokeColor=#0000FF;strokeWidth=2;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" value="">
+          <mxGeometry x="15" y="80" as="geometry">
+            <mxPoint x="20" y="55" as="sourcePoint" />
+            <mxPoint x="60" y="55" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J8YXoTsCnhbxt71xB_hn-183" parent="J8YXoTsCnhbxt71xB_hn-93" style="text;whiteSpace=wrap;html=1;" value="&lt;p data-start=&quot;323&quot; data-end=&quot;451&quot;&gt;🔴&amp;nbsp;&amp;nbsp;&lt;strong data-start=&quot;326&quot; data-end=&quot;342&quot;&gt;NUCLI (Core)&lt;/strong&gt;&lt;br data-start=&quot;342&quot; data-end=&quot;345&quot;&gt;&lt;br&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Equipament central de xarxa: router + switch principal. Gestiona el trànsit global, NAT, DHCP i seguretat.&lt;/font&gt;&lt;/p&gt;&lt;p data-start=&quot;323&quot; data-end=&quot;451&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p data-start=&quot;453&quot; data-end=&quot;606&quot;&gt;🟢&amp;nbsp;&amp;nbsp;&lt;strong data-start=&quot;456&quot; data-end=&quot;500&quot;&gt;DISTRIBUCIÓ — Switch d’accés per edifici&lt;/strong&gt;&lt;br data-start=&quot;500&quot; data-end=&quot;503&quot;&gt;&lt;br&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Switches que distribueixen la xarxa cap als diferents dispositius finals dins de cada edifici o planta.&lt;/font&gt;&lt;/p&gt;&lt;p data-start=&quot;453&quot; data-end=&quot;606&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p data-start=&quot;608&quot; data-end=&quot;714&quot;&gt;🟡 &lt;strong data-start=&quot;611&quot; data-end=&quot;631&quot;&gt;&amp;nbsp; Patch Panel (PP)&lt;/strong&gt;&lt;br data-start=&quot;631&quot; data-end=&quot;634&quot;&gt;&lt;br&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Punt d’interconnexió passiu per organitzar i distribuir el cablejat estructurat.&lt;/font&gt;&lt;/p&gt;&lt;p data-start=&quot;608&quot; data-end=&quot;714&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p data-start=&quot;716&quot; data-end=&quot;819&quot;&gt;🟤&amp;nbsp;&amp;nbsp;&lt;strong data-start=&quot;719&quot; data-end=&quot;727&quot;&gt;RACK&lt;/strong&gt;&lt;br data-start=&quot;727&quot; data-end=&quot;730&quot;&gt;&lt;br&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Armari físic on s’allotgen els equips de xarxa (switches, servidors, patch panels, etc.).&lt;/font&gt;&lt;/p&gt;&lt;p data-start=&quot;716&quot; data-end=&quot;819&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p data-start=&quot;821&quot; data-end=&quot;912&quot;&gt;⚫&amp;nbsp;&amp;nbsp;&lt;strong data-start=&quot;823&quot; data-end=&quot;845&quot;&gt;Dispositius finals&lt;/strong&gt;&lt;br data-start=&quot;845&quot; data-end=&quot;848&quot;&gt;&lt;br&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Equips d’usuari: PCs, telèfons IP, impressores, càmeres IP, etc.&lt;/font&gt;&lt;/p&gt;&lt;p data-start=&quot;821&quot; data-end=&quot;912&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p data-start=&quot;914&quot; data-end=&quot;1006&quot;&gt;🟣&amp;nbsp;&amp;nbsp;&lt;strong data-start=&quot;917&quot; data-end=&quot;947&quot;&gt;Servidors / Virtualització&lt;/strong&gt;&lt;br data-start=&quot;947&quot; data-end=&quot;950&quot;&gt;&lt;br&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Infraestructura de servidors físics i màquines virtuals.&lt;/font&gt;&lt;/p&gt;&lt;p data-start=&quot;914&quot; data-end=&quot;1006&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p data-start=&quot;1008&quot; data-end=&quot;1090&quot;&gt;🟧 &lt;strong data-start=&quot;1011&quot; data-end=&quot;1039&quot;&gt;&amp;nbsp;Emmagatzematge (SAN/NAS)&lt;/strong&gt;&lt;br data-start=&quot;1039&quot; data-end=&quot;1042&quot;&gt;&lt;br&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Sistemes d’emmagatzematge centralitzat de dades.&lt;/font&gt;&lt;/p&gt;&lt;p data-start=&quot;1008&quot; data-end=&quot;1090&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p data-start=&quot;1092&quot; data-end=&quot;1171&quot;&gt;⚡&amp;nbsp;&amp;nbsp;&lt;strong data-start=&quot;1094&quot; data-end=&quot;1107&quot;&gt;UPS (SAI)&lt;/strong&gt;&lt;br data-start=&quot;1107&quot; data-end=&quot;1110&quot;&gt;&lt;br&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Sistema d’alimentació ininterrompuda per protegir els equips.&lt;/font&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="690" width="560" x="20" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="J8YXoTsCnhbxt71xB_hn-184" parent="J8YXoTsCnhbxt71xB_hn-93" style="text;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Cablejat de coure per a connexions de xarxa entre dispositius, racks i rosetes.&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="450" x="20" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="J8YXoTsCnhbxt71xB_hn-186" parent="J8YXoTsCnhbxt71xB_hn-93" style="text;html=1;fontSize=10;align=left;" value="&lt;b&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;UTP Cat6A&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="20" width="90" x="60" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="J8YXoTsCnhbxt71xB_hn-106" parent="1" style="swimlane;startSize=28;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=13;" value="INTERNET / ISP" vertex="1">
+          <mxGeometry height="110" width="560" x="600" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="J8YXoTsCnhbxt71xB_hn-107" parent="J8YXoTsCnhbxt71xB_hn-106" style="shape=cloud;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" value="Internet" vertex="1">
+          <mxGeometry height="60" width="160" x="60" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="J8YXoTsCnhbxt71xB_hn-108" parent="J8YXoTsCnhbxt71xB_hn-106" style="shape=mxgraph.cisco.routers.router;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;fontSize=10;" value="Mòdem" vertex="1">
+          <mxGeometry height="55" width="70" x="360" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="J8YXoTsCnhbxt71xB_hn-109" edge="1" parent="J8YXoTsCnhbxt71xB_hn-106" source="J8YXoTsCnhbxt71xB_hn-107" style="endArrow=block;endFill=1;html=1;strokeColor=#0000FF;strokeWidth=3;" target="J8YXoTsCnhbxt71xB_hn-108" value="UTP Cat6A">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J8YXoTsCnhbxt71xB_hn-110" parent="1" style="swimlane;startSize=28;fillColor=#fce4ec;strokeColor=#c62828;fontStyle=1;fontSize=13;" value="NUCLI — Router + Switch Central" vertex="1">
+          <mxGeometry height="160" width="560" x="600" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="J8YXoTsCnhbxt71xB_hn-111" parent="J8YXoTsCnhbxt71xB_hn-110" style="shape=mxgraph.cisco.routers.router;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;fontSize=10;" value="MikroTik hAP&#xa;[ROUTER]&#xa;NAT · DHCP · Firewall&#xa;WiFi (100m²)" vertex="1">
+          <mxGeometry height="60" width="70" x="100" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="J8YXoTsCnhbxt71xB_hn-112" parent="J8YXoTsCnhbxt71xB_hn-110" style="shape=mxgraph.cisco.switches.workgroup_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=3;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;fontSize=10;" value="TP-Link TL-SG2008&#xa;[SW CENTRAL]&#xa;8p GbE · distribuïx cap als 2 edificis" vertex="1">
+          <mxGeometry height="52.5" width="110" x="300" y="47.5" as="geometry" />
+        </mxCell>
+        <mxCell id="J8YXoTsCnhbxt71xB_hn-113" edge="1" parent="J8YXoTsCnhbxt71xB_hn-110" source="J8YXoTsCnhbxt71xB_hn-111" style="endArrow=block;endFill=1;html=1;strokeColor=#0000FF;strokeWidth=3;" target="J8YXoTsCnhbxt71xB_hn-112" value="UTP Cat6A">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J8YXoTsCnhbxt71xB_hn-181" edge="1" parent="J8YXoTsCnhbxt71xB_hn-110" source="J8YXoTsCnhbxt71xB_hn-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" target="J8YXoTsCnhbxt71xB_hn-111">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J8YXoTsCnhbxt71xB_hn-114" parent="1" style="swimlane;startSize=32;fillColor=#fce4ec;strokeColor=#c62828;fontStyle=1;fontSize=14;" value="EDIFICI 1 — Distribuïdor de Campus" vertex="1">
+          <mxGeometry height="990" width="760" x="60" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="J8YXoTsCnhbxt71xB_hn-115" parent="J8YXoTsCnhbxt71xB_hn-114" style="swimlane;startSize=28;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontSize=12;" value="PLANTA 1 — CPD + SAT (Rack RP1-E1)" vertex="1">
+          <mxGeometry height="640" width="720" x="20" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="J8YXoTsCnhbxt71xB_hn-116" parent="J8YXoTsCnhbxt71xB_hn-115" style="text;html=1;strokeColor=#b85450;fillColor=#b85450;fontColor=#fff;align=center;verticalAlign=middle;fontStyle=1;fontSize=10;rounded=1;" value="🗄 RACK RP1-E1&#xa;(CPD / Planta 1)" vertex="1">
+          <mxGeometry height="50" width="110" x="10" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="J8YXoTsCnhbxt71xB_hn-117" parent="J8YXoTsCnhbxt71xB_hn-115" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d6b656;fontStyle=1;fontSize=10;" value="PP-01 — Patch Panel 24p Cat6A&#xa;(CPD: uplinks Edif.1 + Servidors + SAT)" vertex="1">
+          <mxGeometry height="45" width="380" x="150" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="J8YXoTsCnhbxt71xB_hn-119" parent="J8YXoTsCnhbxt71xB_hn-115" style="shape=mxgraph.cisco.switches.workgroup_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;fontSize=10;" value="D-Link DES-3526&#xa;[DISTRIBUCIÓ — SAN]&#xa;24p FastEth + 2p GbE&#xa;RSTP · LACP" vertex="1">
+          <mxGeometry height="40" width="76" x="322" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="J8YXoTsCnhbxt71xB_hn-120" parent="J8YXoTsCnhbxt71xB_hn-115" style="shape=mxgraph.cisco.storage.storage;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#fff2cc;strokeColor=#d6b656;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;fontSize=10;" value="SAN/NAS&#xa;Storage" vertex="1">
+          <mxGeometry height="35" width="60" x="520" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="J8YXoTsCnhbxt71xB_hn-121" parent="J8YXoTsCnhbxt71xB_hn-115" style="swimlane;startSize=22;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;" value="3 Servidors Reals (+ 6 VMs)" vertex="1">
+          <mxGeometry height="120" width="380" x="130" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="J8YXoTsCnhbxt71xB_hn-122" parent="J8YXoTsCnhbxt71xB_hn-121" style="shape=mxgraph.cisco.servers.standard_server;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#e1d5e7;strokeColor=#9673a6;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;fontSize=9;" value="SRV-01" vertex="1">
+          <mxGeometry height="55" width="50" x="15" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="J8YXoTsCnhbxt71xB_hn-123" parent="J8YXoTsCnhbxt71xB_hn-121" style="shape=mxgraph.cisco.servers.standard_server;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#e1d5e7;strokeColor=#9673a6;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;fontSize=9;" value="SRV-02&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="55" width="50" x="100" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="J8YXoTsCnhbxt71xB_hn-124" parent="J8YXoTsCnhbxt71xB_hn-121" style="shape=mxgraph.cisco.servers.standard_server;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#e1d5e7;strokeColor=#9673a6;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;fontSize=9;" value="SRV-03" vertex="1">
+          <mxGeometry height="55" width="50" x="185" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="J8YXoTsCnhbxt71xB_hn-126" parent="J8YXoTsCnhbxt71xB_hn-121" style="text;html=1;fontSize=9;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=1;" value="+ 6 VMs&#xa;(dins dels reals)" vertex="1">
+          <mxGeometry height="35" width="80" x="270" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="J8YXoTsCnhbxt71xB_hn-127" parent="J8YXoTsCnhbxt71xB_hn-115" style="shape=mxgraph.cisco.power_and_cooling.ups;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#f5f5f5;strokeColor=#666;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;fontSize=10;" value="UPS (SAI)" vertex="1">
+          <mxGeometry height="55" width="60" x="10" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="J8YXoTsCnhbxt71xB_hn-128" parent="J8YXoTsCnhbxt71xB_hn-115" style="swimlane;startSize=22;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;" value="SAT — 2 Informàtics" vertex="1">
+          <mxGeometry height="120" width="280" x="360" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="J8YXoTsCnhbxt71xB_hn-130" parent="J8YXoTsCnhbxt71xB_hn-128" style="shape=mxgraph.cisco.computers_and_peripherals.pc;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;fontSize=9;" value="PC-SAT-01&#xa;Informàtic 1" vertex="1">
+          <mxGeometry height="45" width="50" x="40" y="37.5" as="geometry" />
+        </mxCell>
+        <mxCell id="J8YXoTsCnhbxt71xB_hn-131" parent="J8YXoTsCnhbxt71xB_hn-128" style="shape=mxgraph.cisco.computers_and_peripherals.pc;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;fontSize=9;" value="PC-SAT-02&#xa;Informàtic 2" vertex="1">
+          <mxGeometry height="45" width="50" x="170" y="37.5" as="geometry" />
+        </mxCell>
+        <mxCell id="J8YXoTsCnhbxt71xB_hn-163" edge="1" parent="J8YXoTsCnhbxt71xB_hn-115" style="endArrow=block;endFill=1;html=1;strokeColor=#0000FF;strokeWidth=2;entryX=0.472;entryY=-0.022;entryDx=0;entryDy=0;entryPerimeter=0;" target="J8YXoTsCnhbxt71xB_hn-117" value="UTP Cat6A">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="233.6787473610134" y="97.5" as="sourcePoint" />
+            <mxPoint x="300" y="155" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J8YXoTsCnhbxt71xB_hn-167" edge="1" parent="J8YXoTsCnhbxt71xB_hn-115" source="J8YXoTsCnhbxt71xB_hn-117" style="endArrow=block;endFill=1;html=1;strokeColor=#0000FF;strokeWidth=2;exitX=0.597;exitY=0.939;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.119;entryY=0.009;entryDx=0;entryDy=0;entryPerimeter=0;" target="J8YXoTsCnhbxt71xB_hn-128" value="UTP Cat6A">
+          <mxGeometry relative="1" x="-0.2271" y="-2" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="397.1097887718861" y="255" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J8YXoTsCnhbxt71xB_hn-165" edge="1" parent="J8YXoTsCnhbxt71xB_hn-115" source="J8YXoTsCnhbxt71xB_hn-117" style="endArrow=block;endFill=1;html=1;strokeColor=#0000FF;strokeWidth=2;exitX=0.396;exitY=1.043;exitDx=0;exitDy=0;exitPerimeter=0;" target="J8YXoTsCnhbxt71xB_hn-119" value="UTP Cat6A">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J8YXoTsCnhbxt71xB_hn-164" edge="1" parent="J8YXoTsCnhbxt71xB_hn-115" source="J8YXoTsCnhbxt71xB_hn-117" style="endArrow=block;endFill=1;html=1;strokeColor=#0000FF;strokeWidth=2;exitX=0.284;exitY=1.017;exitDx=0;exitDy=0;exitPerimeter=0;" target="J8YXoTsCnhbxt71xB_hn-121" value="UTP Cat6A">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J8YXoTsCnhbxt71xB_hn-188" parent="J8YXoTsCnhbxt71xB_hn-115" style="shape=mxgraph.cisco.switches.workgroup_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=3;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;fontSize=10;" value="Cisco Catalyst 4948&#xa;[SW EDIF.2 — Capa 3]&#xa;48p GbE + SFP+ 10G&#xa;inter-VLAN · RSTP · LACP" vertex="1">
+          <mxGeometry height="50" width="120" x="130" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="J8YXoTsCnhbxt71xB_hn-132" parent="J8YXoTsCnhbxt71xB_hn-114" style="swimlane;startSize=28;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=12;" value="PLANTA BAIXA — Recepció + Gerència + Administració" vertex="1">
+          <mxGeometry height="210" width="720" x="20" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="J8YXoTsCnhbxt71xB_hn-134" parent="J8YXoTsCnhbxt71xB_hn-132" style="swimlane;startSize=22;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;" value="Recepció" vertex="1">
+          <mxGeometry height="130" width="260" x="20" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J8YXoTsCnhbxt71xB_hn-135" parent="J8YXoTsCnhbxt71xB_hn-134" style="shape=mxgraph.cisco.computers_and_peripherals.pc;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;fontSize=9;" value="PC-REC-01&#xa;Recepcionista" vertex="1">
+          <mxGeometry height="50" width="50" x="20" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="J8YXoTsCnhbxt71xB_hn-136" parent="J8YXoTsCnhbxt71xB_hn-134" style="shape=mxgraph.cisco.computers_and_peripherals.ip_phone;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;fontSize=9;" value="Tel. IP" vertex="1">
+          <mxGeometry height="50" width="40" x="110" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="J8YXoTsCnhbxt71xB_hn-137" parent="J8YXoTsCnhbxt71xB_hn-134" style="shape=mxgraph.cisco.computers_and_peripherals.printer;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;fontSize=9;" value="Impressora" vertex="1">
+          <mxGeometry height="50" width="60" x="185" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="J8YXoTsCnhbxt71xB_hn-138" parent="J8YXoTsCnhbxt71xB_hn-132" style="swimlane;startSize=22;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;" value="Gerència i Administració" vertex="1">
+          <mxGeometry height="130" width="280" x="420" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="J8YXoTsCnhbxt71xB_hn-139" parent="J8YXoTsCnhbxt71xB_hn-138" style="shape=mxgraph.cisco.computers_and_peripherals.pc;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;fontSize=9;" value="PC-GER-01&#xa;Gerent" vertex="1">
+          <mxGeometry height="50" width="50" x="15" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="J8YXoTsCnhbxt71xB_hn-140" parent="J8YXoTsCnhbxt71xB_hn-138" style="shape=mxgraph.cisco.computers_and_peripherals.pc;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;fontSize=9;" value="PC-ADM-01&#xa;Administratiu" vertex="1">
+          <mxGeometry height="50" width="50" x="120" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="J8YXoTsCnhbxt71xB_hn-141" parent="J8YXoTsCnhbxt71xB_hn-138" style="shape=mxgraph.cisco.computers_and_peripherals.ip_phone;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;fontSize=9;" value="Tel. IP x2" vertex="1">
+          <mxGeometry height="50" width="40" x="225" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="J8YXoTsCnhbxt71xB_hn-143" parent="1" style="swimlane;startSize=32;fillColor=#e8eaf6;strokeColor=#3f51b5;fontStyle=1;fontSize=14;" value="EDIFICI 2 — Planta Única (Rack RE2)" vertex="1">
+          <mxGeometry height="700" width="740" x="880" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="J8YXoTsCnhbxt71xB_hn-144" parent="J8YXoTsCnhbxt71xB_hn-143" style="text;html=1;strokeColor=#3f51b5;fillColor=#3f51b5;fontColor=#fff;align=center;verticalAlign=middle;fontStyle=1;fontSize=10;rounded=1;" value="🗄 RACK RE2&#xa;(Edif. 2)" vertex="1">
+          <mxGeometry height="50" width="90" x="10" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="J8YXoTsCnhbxt71xB_hn-145" parent="J8YXoTsCnhbxt71xB_hn-143" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d6b656;fontStyle=1;fontSize=10;" value="PP-02 — Patch Panel 24p Cat6A&#xa;(Edif.2: totes les zones)" vertex="1">
+          <mxGeometry height="45" width="340" x="20" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="J8YXoTsCnhbxt71xB_hn-147" parent="J8YXoTsCnhbxt71xB_hn-143" style="swimlane;startSize=22;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;" value="Sala Vigilància" vertex="1">
+          <mxGeometry height="120" width="220" x="480" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J8YXoTsCnhbxt71xB_hn-148" parent="J8YXoTsCnhbxt71xB_hn-147" style="shape=mxgraph.cisco.computers_and_peripherals.pc;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;fontSize=9;" value="PC-VIG-01&#xa;Guàrdia" vertex="1">
+          <mxGeometry height="55" width="50" x="20" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="J8YXoTsCnhbxt71xB_hn-149" parent="J8YXoTsCnhbxt71xB_hn-147" style="shape=mxgraph.cisco.computers_and_peripherals.pc;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;fontSize=9;" value="Càmeres IP&#xa;CCTV" vertex="1">
+          <mxGeometry height="55" width="50" x="140" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="J8YXoTsCnhbxt71xB_hn-150" parent="J8YXoTsCnhbxt71xB_hn-143" style="swimlane;startSize=22;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;" value="Dept. Comercial" vertex="1">
+          <mxGeometry height="120" width="220" x="480" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="J8YXoTsCnhbxt71xB_hn-151" parent="J8YXoTsCnhbxt71xB_hn-150" style="shape=mxgraph.cisco.computers_and_peripherals.pc;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;fontSize=9;" value="PC-COM-01&#xa;Agent Comercial" vertex="1">
+          <mxGeometry height="55" width="50" x="20" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="J8YXoTsCnhbxt71xB_hn-152" parent="J8YXoTsCnhbxt71xB_hn-150" style="shape=mxgraph.cisco.computers_and_peripherals.ip_phone;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;fontSize=9;" value="Tel. IP" vertex="1">
+          <mxGeometry height="55" width="40" x="140" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="J8YXoTsCnhbxt71xB_hn-153" parent="J8YXoTsCnhbxt71xB_hn-143" style="swimlane;startSize=22;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;" value="Producció" vertex="1">
+          <mxGeometry height="120" width="230" x="470" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="J8YXoTsCnhbxt71xB_hn-154" parent="J8YXoTsCnhbxt71xB_hn-153" style="shape=mxgraph.cisco.computers_and_peripherals.pc;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;fontSize=9;" value="PC-PROD-01&#xa;Registre Prod." vertex="1">
+          <mxGeometry height="55" width="50" x="20" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="J8YXoTsCnhbxt71xB_hn-155" parent="J8YXoTsCnhbxt71xB_hn-153" style="shape=mxgraph.cisco.computers_and_peripherals.printer;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;fontSize=9;" value="Impressora" vertex="1">
+          <mxGeometry height="55" width="60" x="150" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="J8YXoTsCnhbxt71xB_hn-156" parent="J8YXoTsCnhbxt71xB_hn-143" style="swimlane;startSize=22;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;" value="Magatzem" vertex="1">
+          <mxGeometry height="120" width="310" x="390" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="J8YXoTsCnhbxt71xB_hn-157" parent="J8YXoTsCnhbxt71xB_hn-156" style="shape=mxgraph.cisco.computers_and_peripherals.pc;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;fontSize=9;" value="PC-MAG-01&#xa;Registre Mag." vertex="1">
+          <mxGeometry height="55" width="50" x="20" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="J8YXoTsCnhbxt71xB_hn-158" parent="J8YXoTsCnhbxt71xB_hn-156" style="shape=mxgraph.cisco.computers_and_peripherals.pc;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;fontSize=9;" value="PC-MAG-02&#xa;Dept. Admin." vertex="1">
+          <mxGeometry height="55" width="50" x="150" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="J8YXoTsCnhbxt71xB_hn-173" edge="1" parent="J8YXoTsCnhbxt71xB_hn-143" style="endArrow=block;endFill=1;html=1;strokeColor=#0000FF;strokeWidth=2;" target="J8YXoTsCnhbxt71xB_hn-145" value="UTP Cat6A">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="253.75" y="145" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J8YXoTsCnhbxt71xB_hn-174" edge="1" parent="J8YXoTsCnhbxt71xB_hn-143" source="J8YXoTsCnhbxt71xB_hn-145" style="endArrow=block;endFill=1;html=1;strokeColor=#0000FF;strokeWidth=2;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" target="J8YXoTsCnhbxt71xB_hn-147" value="UTP Cat6A">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J8YXoTsCnhbxt71xB_hn-175" edge="1" parent="J8YXoTsCnhbxt71xB_hn-143" source="J8YXoTsCnhbxt71xB_hn-145" style="endArrow=block;endFill=1;html=1;strokeColor=#0000FF;strokeWidth=2;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" target="J8YXoTsCnhbxt71xB_hn-150" value="UTP Cat6A">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J8YXoTsCnhbxt71xB_hn-176" edge="1" parent="J8YXoTsCnhbxt71xB_hn-143" source="J8YXoTsCnhbxt71xB_hn-145" style="endArrow=block;endFill=1;html=1;strokeColor=#0000FF;strokeWidth=2;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" target="J8YXoTsCnhbxt71xB_hn-153" value="UTP Cat6A">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J8YXoTsCnhbxt71xB_hn-177" edge="1" parent="J8YXoTsCnhbxt71xB_hn-143" source="J8YXoTsCnhbxt71xB_hn-145" style="endArrow=block;endFill=1;html=1;strokeColor=#0000FF;strokeWidth=2;entryX=0.152;entryY=0.029;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" target="J8YXoTsCnhbxt71xB_hn-156" value="UTP Cat6A">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J8YXoTsCnhbxt71xB_hn-187" parent="J8YXoTsCnhbxt71xB_hn-143" style="shape=mxgraph.cisco.switches.workgroup_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;fontSize=10;" value="TP-Link TL-SG2216&#xa;[SW EDIF.1]&#xa;16p GbE + 2p SFP&#xa;LACP · RSTP" vertex="1">
+          <mxGeometry height="60" width="140" x="230" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="J8YXoTsCnhbxt71xB_hn-160" edge="1" parent="1" source="J8YXoTsCnhbxt71xB_hn-108" style="endArrow=block;endFill=1;html=1;strokeColor=#0000FF;strokeWidth=4;" target="J8YXoTsCnhbxt71xB_hn-111" value="UTP Cat6A">
+          <mxGeometry relative="1" x="-0.415" y="-4" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="760" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J8YXoTsCnhbxt71xB_hn-161" edge="1" parent="1" source="J8YXoTsCnhbxt71xB_hn-112" style="endArrow=block;endFill=1;html=1;strokeColor=#0000FF;strokeWidth=5;fontStyle=1;" target="J8YXoTsCnhbxt71xB_hn-188" value="UTP Cat6A">
+          <mxGeometry relative="1" x="0.016" y="-3" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="750" y="400" />
+              <mxPoint x="430" y="390" />
+              <mxPoint x="290" y="390" />
+              <mxPoint x="280" y="460" />
+            </Array>
+            <mxPoint x="227.5999999999999" y="553.2250000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J8YXoTsCnhbxt71xB_hn-162" edge="1" parent="1" source="J8YXoTsCnhbxt71xB_hn-112" style="endArrow=block;endFill=1;html=1;strokeColor=#0000FF;strokeWidth=5;fontStyle=1;" value="UTP Cat6A">
+          <mxGeometry relative="1" x="0.0803" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1050" y="300" />
+              <mxPoint x="1060" y="320" />
+              <mxPoint x="1060" y="460" />
+              <mxPoint x="1100" y="460" />
+            </Array>
+            <mxPoint x="1134.1463414634145" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J8YXoTsCnhbxt71xB_hn-166" edge="1" parent="1" source="J8YXoTsCnhbxt71xB_hn-119" style="endArrow=block;endFill=1;html=1;strokeColor=#0000FF;strokeWidth=2;" target="J8YXoTsCnhbxt71xB_hn-120" value="UTP Cat6A">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J8YXoTsCnhbxt71xB_hn-170" edge="1" parent="1" source="J8YXoTsCnhbxt71xB_hn-117" style="endArrow=block;endFill=1;html=1;strokeColor=#0000FF;strokeWidth=3;exitX=0.06;exitY=1.054;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.026;entryY=0.03;entryDx=0;entryDy=0;entryPerimeter=0;" target="J8YXoTsCnhbxt71xB_hn-134" value="UTP Cat6A">
+          <mxGeometry relative="1" x="0.7867" y="5" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="190" y="700" />
+              <mxPoint x="170" y="830" />
+              <mxPoint x="170" y="880" />
+              <mxPoint x="190" y="1110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J8YXoTsCnhbxt71xB_hn-171" edge="1" parent="1" source="J8YXoTsCnhbxt71xB_hn-117" style="endArrow=block;endFill=1;html=1;strokeColor=#0000FF;strokeWidth=3;exitX=0.069;exitY=0.996;exitDx=0;exitDy=0;exitPerimeter=0;" target="J8YXoTsCnhbxt71xB_hn-138" value="UTP Cat6A">
+          <mxGeometry relative="1" x="0.4198" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="190" y="700" />
+              <mxPoint x="170" y="860" />
+              <mxPoint x="180" y="1010" />
+              <mxPoint x="200" y="1150" />
+              <mxPoint x="360" y="1160" />
+              <mxPoint x="630" y="1160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
