@@ -60,7 +60,6 @@ Disposem de tres servidors físics amb les característiques següents, més un 
 | SRV-FIS-01 | 16 GB | 256 GB | 2 x 128 GB | Servidors de Domini |
 | SRV-FIS-02 | 16 GB | 256 GB | 2 x 128 GB | Aplicacions i Dades |
 | SRV-FIS-03 | 16 GB | 256 GB | 2 x 128 GB | Monitoratge i Cabina |
-| SRV-RACK-DMZ | Variable | Variable | - | Servidor DMZ (enrackable) |
 
 ---
 
